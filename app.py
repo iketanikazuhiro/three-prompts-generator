@@ -33,7 +33,7 @@ if st.button("お題を生成する"):
 
     # Twitterシェアボタン
     app_link = "https://three-prompts-generator-2-r3p2f9zk4oufsh7hcifq38.streamlit.app/"
-    tweet_text = f"三題噺のお題生成しました！\n{combined_text}\nこのアプリでお題を作成できます！\n{app_link}"
+    tweet_text = f"三題噺のお題を生成しました。\n{combined_text}\nこのアプリでお題を作成できます！\n{app_link}"
     tweet_url = f"https://twitter.com/intent/tweet?text={urllib.parse.quote(tweet_text)}"
     st.markdown(f'[🐦 Twitterでシェアする]({tweet_url})')
 else:
